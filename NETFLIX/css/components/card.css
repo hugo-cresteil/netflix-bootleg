@@ -1,0 +1,182 @@
+.bg-img {
+	background-image: url("../../images/bg-netflix-1.jpg");
+	background-size: cover;
+	background-position: center;
+}
+.gradient {
+	background: rgba(0, 0, 0, 0.4);
+	background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+}
+
+.main {
+	padding:145px 0px;
+	border-bottom: 8px solid #222;
+}
+.main h2 {
+	margin-top: 16px;
+	margin-bottom: 16px;
+}
+
+.card {
+	background-color: black;
+	border-radius: 0px;
+	border-bottom: 8px solid #222;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 70px 45px;
+	overflow-x: hidden;
+}
+.card video {
+	width: 120%;
+	height: auto;
+}
+
+.img-card {
+	max-width: 1100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 0 auto;
+}
+
+.texte {
+	flex-direction: column;
+	text-align: left;
+    padding: 0 0 0 3rem;
+	width: 52%;
+	height: 100%;
+	margin: -5% 0;
+	margin: 0;
+}
+.texte h1 {
+	font-size:50px;
+	line-height: 55px;
+}
+.texte h2 {
+	font-size: 26px;
+	margin-top: 1rem;
+}
+
+.animation {
+	width: 60%;
+	height: 100%;
+	display: flex;
+	margin-top: 1rem;
+}
+
+.animation-img {
+	
+	position: relative;
+	display: flex;
+	max-width: 100%;
+	justify-content: center;
+}
+
+.animation-mobile {
+	position: relative;
+	display: flex;
+    align-items: center;
+    border: 2px solid rgba(255, 255, 255, 0.25);
+    border-radius: 0.75em;
+    height: 104px;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+    margin-bottom: 16px;
+}
+
+.mobile-left {
+	flex-direction: column;
+	text-align: left;
+}
+
+.texte-0 {
+	font-size: 16px;
+	font-weight: 600px;
+}
+.texte-1 {
+	font-size: 14.4px;
+	font-weight: 400;
+	color: #0071eb;
+	line-height: normal;
+}
+
+#ST-img {
+    height: 84px;
+    margin-right: 16px;
+}
+.download-icon {
+	height: 3.75em;
+	margin-left: 20px;
+}
+
+.FAQ {
+	background-color: black;
+	border-radius: 0px;
+	border-bottom: 8px solid #222;
+	display: flex;
+	padding: 70px 45px;
+	flex-direction: column;
+	text-align: left;
+
+}
+.FAQ h1 {
+	font-size:50px;
+	line-height:55px;
+}
+
+.text-collapse {
+	padding: 1.2em;
+	color: white;
+	background: #303030;
+	font-size:26px;
+    width: 75%;
+	max-width: 815px;
+    margin: 0 0 8px 0;
+}
+
+#accordion {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 2em;
+}
+
+.link-question {
+	display: flex;
+	list-style-type: none;
+	text-align: left;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	max-width: 1000px;
+    margin: 0 auto;
+}
+
+.footer {
+	border-bottom: none;
+}
+
+
+.footer li {
+	line-height: normal;
+	margin-bottom: 16px;
+	padding-right: 12px;
+    min-width: 100px;
+    width: 25%;
+    vertical-align: top;
+
+}
+
+#questions {
+	font-size:16px;
+	font-weight:400;
+	text-align: left;
+	margin-bottom: 2.5rem;
+	text-align: center;
+}
+
+#plswork {
+	z-index=2;
+	width: 70%;
+}

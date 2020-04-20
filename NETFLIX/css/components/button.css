@@ -1,0 +1,58 @@
+.btn-red {
+	color:white;
+    background-color: #e50914;
+    line-height: normal;
+    padding: 7px 17px;
+    font-weight: 400;	
+    margin-top: 0.5rem;
+    border:none;
+}
+
+.btn-red:hover{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+
+#button-id {
+	border-radius: 3px;
+}
+
+#button-try:hover{
+	background-color: rgb(244, 6, 18);
+}
+
+#button-try {
+	border-bottom-right-radius: 2px;
+	border-top-right-radius: 2px;
+	border-width: 1px;
+	box-shadow: rgba(0,0,0,0.45) 0px 1px 0px 0px;
+	display: inline-block;
+	position: relative; 
+	font-size: 26px;
+	min-height:70px;
+	margin-bottom: 0.5rem;
+}
+
+.button-collapse {
+	color: white;
+	background: #303030;
+	padding: 0.8em 2.2em 0.8em 1.2em;
+    margin: 0 0 8px 0;
+    font-weight: 400;
+    position: relative;
+    width: 100%;
+    border: 0;
+    text-align: left;
+    font-size: 26px;
+    width: 75%;
+	max-width: 815px;
+}
+
+.btn-langue {
+	background-color: #000000;
+	border: 1px solid #333333;
+	color: #999;
+    font-size: 16px;
+	cursor: default;
+}

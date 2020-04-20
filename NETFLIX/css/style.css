@@ -1,0 +1,161 @@
+@import url("components/container.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+body {
+	font-family: "Arial";
+	font-weight: 400;
+	text-align: center;
+	min-width: 320px;
+	color: white;
+	overflow-x: hidden;
+	font-size:16px;
+	box-sizing: content-box;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 70.4px;
+	margin: auto;
+	max-width:640px;
+}
+
+h2 {
+	font-size:26px;
+	max-width:640px;
+	margin:auto;
+	font-weight: 400;
+}
+
+h3 {
+	font-size: 19.2px;
+}
+
+p {
+	color:#757575;
+	font-size: 13px;
+	text-align: start;
+}
+
+a {
+	color:#757575;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+a:hover {
+	color:#757575;
+}
+
+@media only screen and (max-width: 720px) {
+	.img-card {
+		flex-direction: column;
+	}
+	.texte h1 {
+		font-size:40px;
+		line-height:44px;
+	}
+	.texte h2 {
+		font-size:20px;
+		line-height: normal;
+	}
+	.texte {
+		margin: 0;
+		height: auto;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+	}
+	.FAQ h1 {
+		font-size:40px;
+		line-height:44px;
+	}
+	.text-collapse {
+		font-size: 20px;
+	}
+	.button-collapse {
+		font-size: 20px;
+	}
+	#accordion {
+		margin: 2rem 0;
+		width: 100%;
+	}
+	.main {
+		padding: 70px 0;
+	}
+	.main h1 {
+		font-size:40px;
+		line-height:44px;
+	}
+	.main h2 {
+		font-size:20px;
+		line-height: normal;
+	}
+	.email-form h3 {
+		font-size: 18px;
+		width: 100%;
+	}
+	.mail {
+		width: 100%;
+		min-width: 0;
+	}
+	.#plswork {
+		width: 50%;
+	}
+	#button-try {
+		font-size: 16px;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.texte h1 {
+		font-size:26px;
+		line-height:28.6px;
+	}
+	.texte h2 {
+		font-size:18px;
+	}
+	.FAQ h1 {
+		font-size:26px;
+		line-height:28.6px;
+	}
+	.text-collapse {
+		font-size: 18px;
+	}
+	.button-collapse {
+		font-size: 18px;
+	}
+	.main {
+		padding: 50px 0;
+	}
+	.main h1 {
+		font-size:26px;
+		line-height:28.6px;
+	}
+	.main h2 {
+		font-size:20px;
+		line-height: normal;
+	}
+	.header {
+		margin :0 10px;
+	}
+	.FAQ {
+		padding: 25px 0;
+	}
+	.accordion {
+		margin: 0;
+	}
+
+	.#plswork {
+		width: 20%;
+	}
+	.texte-0 {
+		font-size: 12px;
+	}
+	.texte-1 {
+		font-size : 10px;
+	}
+}
